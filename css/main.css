@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "LineSeedSans";
+    src: url(/fonts/LINESeedSans_Rg.ttf),
+    url(/fonts/LINESeedSans_Bd.otf),
+    url(/fonts/LINESeedSans_Th.otf),
+    url(/fonts/LINESeedSans_He.otf);
+}
+
+body{
+    font-family: "LineSeedSans", Verdana, Tahoma, sans-serif;
+    background-color: #222;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+nav a{
+    color: #ff94e0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.video1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1{
+    color: #ff94e0;
+}
+
+h2{
+    color: #ff94e0;
+    font-size: 33px;
+}
+.video-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+.video2 {
+    max-width: 60%;
+    height: auto;
+}
+
+footer{
+    background-color: #ff94e0;
+    height: 300px;
+    padding: 0;
+}
+
+footer a{
+    font-size: 30px;
+    color: #222;
+    text-decoration: underline;
+}
+
+.banner1 {
+    background-image: url(/images/CHeshire\ aye-449.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 420px;
+}
+
+.banner2 {
+    background-image: url(/images/Contact-page-banner-390.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 430px;
+}
+.contactlink{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.abouttext{
+    padding-top: 280px;
+}
+
+.abouttext h1{
+    font-size: 60px;
+}
+
+h4{
+    color: #ff94e0;
+}
